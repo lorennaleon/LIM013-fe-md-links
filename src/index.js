@@ -48,8 +48,8 @@ export const extractMd= arrayFiles =>{
 }
 
 //LEER ARCHIVO
-/*const texto = fs.readFileSync("C:\\Users\\Lorenna\\Desktop\\mdlink\\LIM013-fe-md-links\\README.md", {
+const texto = fs.readFileSync("C:\\Users\\Lorenna\\Desktop\\mdlink\\LIM013-fe-md-links\\README.md", {
   encoding: "utf-8"
 });
-console.log(texto)*/
+console.log(texto)
 //extraer link
