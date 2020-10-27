@@ -1,0 +1,35 @@
+{
+  "name": "md-links",
+  "version": "1.0.0",
+  "description": "* [1. Preámbulo](#1-preámbulo)\r * [2. Resumen del proyecto](#2-resumen-del-proyecto)\r * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)\r * [4. Consideraciones generales](#4-consideraciones-generales)\r * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)\r * [6. Entregables](#6-entregables)\r * [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)\r * [8. Checklist](#8-checklist)",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test":"jest",
+    "build": "babel src -d lib",
+    "start": "node src/index.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorennaleon/LIM013-fe-md-links.git"
+  },
+  "keywords": [],
+  "author": "lorenna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lorennaleon/LIM013-fe-md-links/issues"
+  },
+  "homepage": "https://github.com/lorennaleon/LIM013-fe-md-links#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "@babel/preset-env": "^7.1.6",
+    "eslint": "^7.11.0",
+    "jest": "^26.6.0"
+  }
+}
