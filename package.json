@@ -35,6 +35,10 @@
     "jest": "^26.6.0"
   },
   "dependencies": {
-    "md-links-cl": "^1.0.0"
+    "colors": "^1.4.0",
+    "marked": "^1.2.2",
+    "md-links-cl": "^1.0.0",
+    "node-fetch": "^2.6.1",
+    "npm-md-links": "^0.1.1"
   }
 }
